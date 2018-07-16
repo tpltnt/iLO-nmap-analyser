@@ -5,6 +5,7 @@ This is a simple Python (3) script to find HPE iLO issues from nmap scans.
 1. install nmap
 2. get iLO scanning script from [here](https://github.com/nmap/nmap/pull/1082)
 3. run `nmap --script ./ilo-info.nse -oX iLO_scan.xml IP_RANGE`
+4. extact potential issues: `python3 iLO-nmap-analyser.py iLO_scan.xml`
 
 
 # references
